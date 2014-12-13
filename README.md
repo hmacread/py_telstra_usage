@@ -22,6 +22,6 @@ Percent used: 4.18%
 
 This works for the current telstra mobile broadband and requires no authentication as the https://m.telstra.com/ generates content based (presumably) on the source of incoming connection.
 
-The script just simulates and http request to 'https://m.telstra.com/ppdata/viewBalanceAction.html?a=view' and parses out the relevant data.
+The script simulates and http request to 'https://m.telstra.com/ppdata/viewBalanceAction.html?a=view' and parses out the relevant data.
 
 The percentage meter that the credit remaining is the original amount of credit purchased AND that the data included for that plan have not changed. I.e. you need to update this for your plan.
